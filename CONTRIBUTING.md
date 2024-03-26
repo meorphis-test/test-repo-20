@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```bash
-npm install git+ssh://git@github.com:stainless-sdks/meorphis-test-30-node.git
+npm install git+ssh://git@github.com:meorphis-test/test-repo-18.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```bash
 # Clone
-git clone https://www.github.com/stainless-sdks/meorphis-test-30-node
-cd meorphis-test-30-node
+git clone https://www.github.com/meorphis-test/test-repo-18
+cd test-repo-18
 
 # With yarn
 yarn link
@@ -99,7 +99,7 @@ the changes aren't made through the automated pipeline, you may want to make rel
 
 ### Publish with a GitHub workflow
 
-You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/stainless-sdks/meorphis-test-30-node/actions/workflows/publish-npm.yml). This requires a setup organization or repository secret to be set up.
+You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/meorphis-test/test-repo-18/actions/workflows/publish-npm.yml). This requires a setup organization or repository secret to be set up.
 
 ### Publish manually
 
